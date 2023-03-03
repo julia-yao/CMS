@@ -12,55 +12,63 @@
     <div class="d-flex">
         <aside class="sidebar vh-100 border-end pt-3 d-flex flex-column bg-white">
             <!--1.後台名稱 2.選單 3.登出按鈕-->
-            <div class="px-4">
-                <strong>sara's lunch</strong>
-                - 後台管理系統
+            <div class="px-3 text-center">
+                <h1>sara's lunch<br/>
+                    後台管理系統
+                </h1>
+                
             </div>
-            <div class="overflow-auto mt-3">
-               <div>
-                    <a href="#" class="sidebar-link active">
-                        <div class="px-4">
-                            <i class="bi bi-house me-2"></i> 
-                            首頁
+            <ul class="list-group">
+                
+                <li class="">
+                    <div class="overflow-auto mt-3">
+                        <div>
+                             <a href="home.html" class="sidebar-link active">
+                                 <div class="px-4">
+                                     <i class="bi bi-house me-2"></i> 
+                                     首頁
+                                 </div>
+                             </a>
                         </div>
-                    </a>
-               </div>
-            </div>
-
-            <div>
-                <a href="#menu-order" class="sidebar-link" data-bs-toggle="collapse" >
-                    <div class="d-flex justify-content-between px-4">
-                        <div class="d-block">
-                            <i class="bi bi-card-checklist me-2"></i>
-                            訂單管理
-                        </div>
-                        <i class="bi bi-caret-down"></i>
                     </div>
-                </a>
-                <div class="collapse" id="menu-order">
-                    <a href="#" class="sidebar-link">
-                        <div class="ps-5"> 
-                            所有訂單
+                </li>
+                <li class="">
+                    <a href="#menu-order" class="sidebar-link" data-bs-toggle="collapse" >
+                        <div class="d-flex justify-content-between px-4">
+                            <div class="d-block">
+                                <i class="bi bi-card-checklist me-2"></i>
+                                訂單管理
+                            </div>
+                            <i class="bi bi-caret-down"></i>
                         </div>
                     </a>
-                    <a href="#" class="sidebar-link">
-                        <div class="ps-5">
-                            訂單細節
-                        </div>
-                    </a>
-                </div>
-            </div>
-            
-            
-            <div>
-                <a href="#" class="sidebar-link">
-                    <div class="px-4">
-                        <i class="bi bi-browser-chrome me-2"></i>
-                            外部網站
+                    <div class="collapse" id="menu-order">
+                        <a href="order.html" class="sidebar-link">
+                            <div class="ps-5"> 
+                                所有訂單
+                            </div>
+                        </a>
+                        <a href="orders.html" class="sidebar-link">
+                            <div class="ps-5">
+                                訂單細節
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-
+                </li>
+                <li class="">
+                    <div>
+                        <a href="" class="sidebar-link">
+                            <div class="px-4">
+                                <i class="bi bi-browser-chrome me-2"></i>
+                                    外部網站
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class=""></li>
+                <li class=""></li>
+            </ul>
+            
             <a href="#" class="mt-auto sidebar-link">
                 <div class="px-4">
                     <i class="bi bi-box-arrow-right me-2"></i> 
